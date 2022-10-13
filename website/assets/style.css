@@ -1,13 +1,13 @@
-
 body{
     background-color: rgb(159, 209, 224);
     font-family: verdana;
-    margin:100px;
+    margin:10%;
 }
 
 #Title, .SubTitle, .Post_title
 {
  color: rgb(0, 0, 0);
+ font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 #Title
@@ -17,7 +17,7 @@ body{
 
 .Post_title
 {
- font-style:italic;
+ font-family: Verdana, Geneva, Tahoma, sans-serif ;
  margin: 0px;
  margin-bottom: 15px;
  
@@ -38,6 +38,7 @@ body{
     margin-bottom: 15px;
     text-transform:capitalize;
     text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .post_img
@@ -56,4 +57,13 @@ body{
 .content_list li a 
 {
     color: rgb(16, 68, 238);
+}
+
+.referencias
+{
+ background: rgb(224, 236, 236);
+ padding: 15px;
+ border: solid black 3px;
+ margin-bottom: 15px ;
+ border-radius: 5px;
 }
