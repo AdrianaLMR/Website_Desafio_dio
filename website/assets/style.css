@@ -12,7 +12,15 @@ body{
 {
  text-transform: uppercase;
 }
-.historiaTecnologia
+.bloco_indice
+{
+ background: rgb(224, 236, 236);
+ padding: 15px;
+ border: solid black 3px;
+ margin-bottom: 15px ;
+ border-radius: 5px;
+}
+.historiaWeb
 {
  background: rgb(224, 236, 236);
  padding: 15px;
@@ -26,7 +34,7 @@ body{
  width: 100%;
  height: 300px;
 }
-.internet
+.post_internet
 {
  background: rgb(224, 236, 236);
  padding: 15px;
@@ -34,28 +42,42 @@ body{
  margin-bottom: 15px ;
  border-radius: 5px;
 }
-.grandesNomes{
+.post_grandesNomes{
  background: rgb(224, 236, 236);
  padding: 15px;
  border: solid black 3px;
  margin-bottom: 15px ;
  border-radius: 5px;
 }
-.postClient{
+.post_Client{
     background: rgb(224, 236, 236);
     padding: 15px;
     border: solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;
 }
-.aplicacaoWeb{
+.post_aplicacaoWeb{
     background: rgb(224, 236, 236);
     padding: 15px;
     border: solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;  
 }
-.referencias
+.post_servers{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
+}
+#title_hardwares_softwares{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+}
+.post_referencias
 {
  background: rgb(224, 236, 236);
  padding: 15px;
