@@ -67,3 +67,18 @@ body{
  margin-bottom: 15px ;
  border-radius: 5px;
 }
+.grandesNomes{
+ background: rgb(224, 236, 236);
+ padding: 15px;
+ border: solid black 3px;
+ margin-bottom: 15px ;
+ border-radius: 5px;
+}
+
+.postClient{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+}
