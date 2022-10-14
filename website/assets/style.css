@@ -3,82 +3,76 @@ body{
     font-family: verdana;
     margin:10%;
 }
-
 #Title, .SubTitle, .Post_title
 {
- color: rgb(0, 0, 0);
- font-family: Verdana, Geneva, Tahoma, sans-serif ;
+     color: rgb(0, 0, 0);
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
-
 #Title
 {
- text-transform: uppercase;
+     text-transform: uppercase;
 }
-
 .Post_title
 {
- font-family: Verdana, Geneva, Tahoma, sans-serif ;
- margin: 0px;
- margin-bottom: 15px;
- 
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+     margin: 0px;
+     margin-bottom: 15px;
 }
-
 .post
 {
- background: rgb(224, 236, 236);
- padding: 15px;
- border: solid black 3px;
- margin-bottom: 15px ;
- border-radius: 5px;
+     background: rgb(224, 236, 236);
+     padding: 15px;
+     border: solid black 3px;
+     margin-bottom: 15px ;
+     border-radius: 5px;
 }
-
 .post_content
 {
-    margin: 0px;
-    margin-bottom: 15px;
-    text-transform:capitalize;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0px;
+     margin-bottom: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .post_img
 {
- margin-bottom: 15px;
- width: 100%;
- height: 300px;
+     margin-bottom: 15px;
+     width: 100%;
+     height: 300px;
 }
-
 .content_list
 {
-    list-style-type: none ;
-    padding-left: 15px;
+      list-style-type: none ;
+      padding-left: 15px;
 }
-
 .content_list li a 
 {
-    color: rgb(16, 68, 238);
+      color: rgb(16, 68, 238);
 }
-
 .referencias
 {
- background: rgb(224, 236, 236);
- padding: 15px;
- border: solid black 3px;
- margin-bottom: 15px ;
- border-radius: 5px;
+     background: rgb(224, 236, 236);
+     padding: 15px;
+     border: solid black 3px;
+     margin-bottom: 15px ;
+     border-radius: 5px;
 }
-.grandesNomes{
- background: rgb(224, 236, 236);
- padding: 15px;
- border: solid black 3px;
- margin-bottom: 15px ;
- border-radius: 5px;
+    .grandesNomes{
+     background: rgb(224, 236, 236);
+     padding: 15px;
+     border: solid black 3px;
+     margin-bottom: 15px ;
+     border-radius: 5px;
 }
-
 .postClient{
     background: rgb(224, 236, 236);
     padding: 15px;
     border: solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;
+}
+.aplicacaoWeb{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
 }
