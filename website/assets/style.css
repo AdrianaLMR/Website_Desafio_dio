@@ -28,7 +28,7 @@ body{
  margin-bottom: 15px ;
  border-radius: 5px;
 }
-.post_img
+.post_img_capa_programacao
 {
  margin-bottom: 15px;
  width: 100%;
@@ -76,6 +76,12 @@ body{
     border: solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;
+}
+.post_img_requisicao_http
+{
+ margin-bottom: 15px;
+ width: 100%;
+ height: 500px;
 }
 .post_referencias
 {
