@@ -81,7 +81,28 @@ body{
 {
  margin-bottom: 15px;
  width: 100%;
- height: 500px;
+ height: 300px;
+}
+.post_hospedagem_site{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
+}
+.post_linguagem_programacao{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
+}
+.post_img_ex_tag
+{
+ margin-bottom: 15px;
+ width: 900px;
+ height: 450px;
+ margin-left: 150px;
 }
 .post_referencias
 {
