@@ -104,6 +104,20 @@ body{
  height: 450px;
  margin-left: 150px;
 }
+.post_introducao_html_pratica{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
+}
+.post_text{
+    background: rgb(224, 236, 236);
+    padding: 15px;
+    border: solid black 3px;
+    margin-bottom: 15px ;
+    border-radius: 5px;  
+}
 .post_referencias
 {
  background: rgb(224, 236, 236);
