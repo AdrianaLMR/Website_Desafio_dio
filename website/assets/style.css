@@ -97,12 +97,11 @@ body{
     margin-bottom: 15px ;
     border-radius: 5px;  
 }
-.post_img_ex_tag
+.post_img_linguagens_programacao
 {
- margin-bottom: 15px;
- width: 900px;
- height: 450px;
- margin-left: 150px;
+    margin-left: 15px;
+    width: 90%;
+    height: 300px;
 }
 .post_introducao_html_pratica{
     background: rgb(224, 236, 236);
@@ -110,6 +109,14 @@ body{
     border: solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;  
+}
+.post_img_ex_tag
+{
+ margin-bottom: 15px;
+ width: 900px;
+ height: 450px;
+ margin-left: 150px;
+ margin-top:15px;
 }
 .post_text{
     background: rgb(224, 236, 236);
