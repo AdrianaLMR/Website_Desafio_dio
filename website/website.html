@@ -1,61 +1,405 @@
-body{
-    background-color: rgb(224, 243, 250);
-    font-family: verdana;
-    max-width: 1090px;
-    margin-left: 450px;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-#Title, .SubTitle, .Post_title
-{
- color: rgb(0, 0, 0);
- font-family: Verdana, Geneva, Tahoma, sans-serif ;
-}
-#Title
-{
- text-transform: uppercase;
-}
-.bloco_indice
-{
-    margin: 15px 0px 5px 100px;
-    padding: 15px;
-    border:solid black 3px;
-    border-radius: 5px;
-    float: left;
-    width: 300px;
-    background: #FFFAFA;
-    background:rgb(215, 229, 241);
-    margin-left: -350px;
-}
-.post_img_requisicao_http
-{
- margin-bottom: 15px;
- width: 100%;
- height: 300px;
-}
-.post_img_linguagens_programacao
-{
-    margin-left: 15px;
-    width: 90%;
-    height: 300px;
-}
-.post_img_ex_tag
-{
- margin-bottom: 15px;
- width: 900px;
- height: 450px;
- margin-left: 150px;
- margin-top:15px;
-}
-
-
-.post_conteudos{
-    background:rgb(255, 255, 255);
-    padding: 15px;
-    border:solid black 3px;
-    margin-bottom: 15px ;
-    border-radius: 5px;
-    margin-top: 35px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>História da Web</title>
+        <link rel="stylesheet" href="assets/styleWebsite.css">
+    </head>
+    <body>
+        <header>
+           <h1 id = "Title" style="font-family:Helvética"><strong>Minha primeira página HTML!!</strong></h1>
+        </header>
+        <div class="bloco_indice">
+        <h2 id="indice">Indice</h2>
+        <hr>
+            <ul>
+                <li>
+                    <a href = "#Title">História da Web</a>
+                    <ul>
+                        <li>
+                            <a href="#primeirosPcs">Primeiros computadores</a>
+                        </li>
+                        <li>
+                            <a href="#internet">Internet</a>
+                        </li>
+                        <li>
+                            <a href="#grandesNomes">Grandes nomes</a>
+                        </li>
+                    </ul>
+                    <br>
+                </li>
+                <li>
+                    <a href = "#title_oque_clients">Oque são clients</a>
+                    <ul>
+                        <li>
+                            <a href="#conceitoClient">Conceito Client</a>
+                        </li>
+                        <li>
+                            <a href="#navegadores">Navegadores</a>
+                        </li>
+                        <li>
+                            <a href="#aplicacaoWeb">Aplicação Web</a>
+                        </li>
+                        <li>
+                            <a href="#dispositivomovel">Dispositivos móveis</a>
+                        </li>
+                    </ul>
+                    <br>
+                </li>
+                <li>
+                    <a href = "#title_servers">Servers</a>
+                    <ul>
+                        <li>
+                            <a href = "#servers">Oque são servers</a>
+                        </li>
+                        <li>
+                            <a href="#hardwares_softwares">Hardwares e softwares em servidores</a>
+                        </li>
+                        <li>
+                            <a href="#tipos_servidores">Tipos de servidores</a>
+                        </li>
+                        <li>
+                            <a href="#hospedagem_site">Tipos de servidores</a>
+                        </li>
+                    </ul>
+                    <br>
+                </li>
+                <li>
+                     <a href = "#title_linguagem_programacao">Linguagem de Programação</a>
+                        <ul>
+                            <li>
+                                <a href="#linguagem_programacao">O que é Linguagem de Programação</a>
+                            </li>
+                        </ul>
+                        <br>
+                 </li>
+                <li>
+                    <a href="#title_introducao_html_pratica">Introdução ao HTML na prática</a>
+                    <ul>
+                        <li>
+                            <a href="#ferramentas">Ferramentas</a>
+                        </li>
+                        <li>
+                            <a href="#tile_estrutura_basica">Estrutura básica do HTML</a>
+                        </li>
+                        <li>
+                            <a href="#tile_atributos">Atributos</a>
+                        </li>
+                        <li>
+                            <a href="#title_text">Textos</a>
+                        </li>
+                        <li>
+                            <a href="#title_list">Listas ordenadas e não ordenadas</a>
+                        </li>
+                        <li>
+                            <a href="#tags_links">Tags/Links</a>
+                            </li>
+                    </ul>
+                    <br>
+                </li>
+                <li>
+                    <a href="#referencias">Referências</a>
+                </li>
+            </ul>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id = "Title"><strong>História da Web</strong></h1>
+            <h2 id="primeirosPcs">Primeiros computadores:</h2><small><a href="#indice">Voltar ao indice</a></small> 
+            <h3>Primeira Geração:</h3>
+            <p>
+                A primeira geração funcionavam através de tubos e válvulas eletromecânicas, e sua programação era feita diretamente em código de máquina, geralmente pela conexão de plugs em painéis, aceitava somente linguagem de máquina suportada, tinha alto custo de manutenção e aquisição e dissipação de muito calor, 
+                dispositivo de entrada/saída lento, possuia grandes dimensões, tinha a necessidade de corrente alternada (CA), não portáteis e alto consumo de energia.
+            </p>
+            <h4>Computadores:</h4>
+            <ul>
+              <li><u> Harvard Mark I:</u> Era um computador, totalmente eletromecânico, construído em 1944 para fins militares,  trabalhava com números com 23 decimais e realizava as quatro operações aritméticas.</li>
+              <li><u>Colossus:</u> Era da época de 1946, foi um conjunto de computadores desenvolvidos por deciffradores para ajudar na criptoanalise da cifra de Lorenz. Usava válvulas termiônicas (tubos a vácuo) para realizar operações booleanas e de contagem..</li>
+              <li><u>ENIAC:</u>Foi da época de 1946, seu nome é Eletronic Numerical Integrator and Computer, era utilizado para calculos.</li>
+            </ul>
+            <hr>
+            <h3>Segunda Geração:</h3>
+            <p>
+                A segunda Geração foi de 1959 a 1965, maracada ainda com dimensões muito grandes, os computadores  funcionavam por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas, o seu consumo de energia e o seu tamanho era menor, oque os tornava mais confiáveis quando comparados com computadores da primeira geração. 
+               Computadores da época: IBM 1401, IBM 7094, CDC 1604, CDC 3600, UNIVAC 1108.
+            </p>
+            <hr>
+            <h3>Terceira Geração:</h3>
+            <p>
+               Ela foi marcada pelo uso de circuitos integrados, também conhecidos como MICROCHIPS. Os circuitos integrados eram compostos por transistores, capacitores e resistores, um computador da época é o IBM's System/360 de arquitetura plugavel.
+                SURGIU dispositivos de entrada e saída, como o terminal de vídeo, o teclado e o disco magnético. Algumas linguagens de alto nível (FORTRAN-II A IV, COBOL, PASCAL PL /1, BASIC, ALGOL-68).
+            </p>
+            <hr>
+            <h3>Quarta Geração:</h3>
+            <p>
+                Utilizava circuitos integrados com tecnologia eletrônica VLSI (VERY LARGE-SCALE INTEGRATION), que são CHIPS contendo milhares de transistores em um centímetro quadrado de silicone, dando origem à era do computador moderno os PC's.
+            </p>
+            <p> Linguagens de alto nível, como C, C++ e dBASE, foram implementadas nessa geração Um computador da época era o Altair 8800. Nesa época o steve jobs apareceu com o apple 1, nessa época a apple também criou o primeiro mouse.</p>
+            <hr>
+            <h3>Quinta Geração:</h3>
+            <p>
+                Utilização de tecnologia ULSI (ultra large-scale integration), desenvolvimento de inteligência artificial, 
+                desenvolvimento do processamento de linguagem natural, avanço no processamento paralelo, avanço na tecnologia de supercondutores, interfaces mais amigáveis com recursos multimídia e
+                disponibilidade de computadores muito potentes e compactos a preços mais baratos. 
+                Linguagens de alto nível, como C e C++, Java e .Net.
+            </p>
+            <p>
+                Também podemos dizer que ela é marcada pela utilização de computação      distribuída, computação em nuvem, dispositivos móveis, computação ubíqua, realidade aumentada, além dos poderosos computadores
+                com poder quântico de processamento.
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="internet">Internet</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <hr>
+            <p>
+                 A primeira forma de comunicação foi o telégrafo, através do código morse, que era utilizado para mandar mensagens por um cabo de um continente ao outro, sendo a primeira comunicação intercontinental acontecesse em 1958. Em 1950 teve a guerra fria, onde aconteceu a briga para a corrida espacial, fazendo com que a tecnologia ficasse em alta, O ENIAC na época era utilizado para calcular rotas de misséis, nesse meio surgiu a <abbr title="Advanced Reserch Projects Agency"><del>ARPA</del></abbr> e depois ela entrou com defesa se tornando <abbr title="Defense Advanced Reserch Projects Agency">DARPA</abbr>
+            </p>
+            <p>
+                A internet foi criada em 1969, nos Estados Unidos, antigamente Chamada de Arpanet, tinha como função interligar laboratórios de pesquisa, com isso teve avanços  no sistema de comunicação em pacotes, enviados um a um por múltiplos destinos. A partir de 1982, o uso da Arpanet tornou-se maior no âmbito acadêmico. Inicialmente, o uso era restrito aos EUA, mas se expandiu para outros países, como Holanda, Dinamarca e Suécia.
+            </p>
+            <p>
+                Tivemos acontecimentos marcantes como a criação do TCP/IP  que foi criado por Vinton Cerf e Robert Kahn, implantaram ela na ARPA.net que deu mais força, onde surgiu as microredes. O Tim Berners-Lee uniu o  hipertext com TCP/IP, criando então a World Wide Web
+            </p>
+            <h5><i>Curiosidade:</i></h5>
+            <p> 
+                A primeira conexão estabelecida foi em  29/10/1969 de UCLA para SRI, a mensagem enviada era para ser a palavra LOGIN, mas chegou apenas a sílaba "Lo".
+            </p>
+            <p> 
+                Poderiamos entender o chaeckpoints como o roteadores, que seriam pontos onde passa a informação.
+            </p>
+            <p>
+                O WWW foi o primeiro navegador, e a sua primeira página foi criada em 6 de agosto de  1991.
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="grandesNomes">Grandes nomes:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <hr>
+            <ol>
+                <li><p>
+                    <mark>Grace Murray Hopper:</mark> Criadora da lingugaem d e programação de alto nivel flow-Matic(Base do Cobol). Conhecida pelo termo do "BUG", primeira das programadoras do Mark 1em 1994.
+                </p></li>
+                   <li><p>
+                    <mark>Joseph Carl Robnett Licklider:</mark> Recrutado pela DARPA, depois de teorizar sobre uma rede "glática" de computadores e foi quem plantou a semente da comunicação entre doispontos distintos através do computador
+                </p></li>
+                <li><p>
+                    <mark>Robert E. Kahn:</mark> Primeira apresentação pública da ARPANet, apresentou o primeiro e-mail, um dos criadores do TCP/IP.
+                </p></li>
+                <li><p>
+                    <mark>Tim Berners-Lee:</mark> Diretor  do Word Wide Web Consortion(W3C) e inventor da WWW, possui título de cavaleiro dado pela Rainha Elizabeth 2. Foi quem popularizou o HTTP eHTML, com isso ao acessar os ites podiamos ver imagens, cores, um design mais diferente.
+                </p></li>
+                <li><p>
+                    <mark>Marc Andreessen:</mark> Reinventou o navegador. O Netscape Navigator que foi feito apartir do Mosaic que era um navegador mais evoluido, com mais recursos, deteve a maiorparte da internet na época, mas foi superado pelo Internet Explore anos depois Criado pela Microsoft.
+                </p></li>
+                <li><p>
+                    <mark>Steve Jobs:</mark> Fundador da apple que popularizou o smartphone lançado o iPhone em 29 de junho de 2007. Ele popularizou os smartphones
+                </p></li>
+                <li><p>
+                    <mark>Bill Gates:</mark> Fundador da Microsoft, sua equipe criou o Internet Explore, ele tornou 
+                    acessível para todos a internet e os computadores.
+                </p>
+                <p>“Hoje a programação é uma corrida entre os engenheiros de software para tentar construir maiores e melhores programas à prova de idiotas, e o Universo tentando produzir maiores emelhores idiotas. Até agora, o Universo está ganhando.”</p>
+                <blockquote>Bill Gates</blockquote>
+                </li>
+            </ol>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_oque_clients">Oque são Clients? </h1>
+            <small><a href="#indice">Voltar ao indice</a></small></small>
+            <br>
+            <h1 id="conceitoClient">Conceito Client:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Conceito de client: é  o dispositivo que esta consumindo a informação da internet, se comunicam atraves da internet com outros computadores.
+                Servidor: Serve as informações para os clientes, onde fica hospedados os sites, que retorna arquivos HTML, CSS, JS e imagens, esses arquivos são chamados de estáticos,velocidade da internet também é muito importante.
+                O navegador gera um cach de um página já visitada e armazena no computador do client, assim não precisa fazer o trafego de novo para o servidor para buscar o mesmo arquivo. 
+                Na parte do client ele pode ser utilizado outros dispositivos de tamanho diferentes, e por isso pensar em um disign responsivo e a compatibilidade com os browser(Navegadores)importante. 
+                Devemos sempre considerar que como são browes diferentes possuem comandos diferentes oque pode causar algum problema, esses problemas podem ser rsolvidos através de testesmanter boas práticas.
+            </p>
+            <hr>
+            <h1 id="navegadores">Navegadores:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Os navegadores também conhecidos como Browsers são programas que instalamos no computador, ele é uma ferramenta que vai interpretar os os arquivos que vem do servidor.
+                Todos os navegadores seguem o padrão W3C, mas devemos considerar que os navegadores são diferentes entre si por causa da diferença de interpretação.
+                Surgiram na época do Netscap, o primeiro foi o WWW, hoje em dia os navegadores são gratuitos e já vem instalado na máquina ou você pode instalar.
+                Cada navegador tem sua forma de tratar a informação que recebe do servidor, você pode dar uma olhada aqui <a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp">HTReference - Browser Support</a>
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="aplicacaoWeb">Aplicação Web:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                As aplicações web funcionam em um computador conectado à Internet e podem ser acessadas por qualquer outro computador conectado à Internet, em diferentes locais, serve como meio dcomnicação entre o client x server não sendo necessário a sua instalação.
+            </p>
+            <p>
+                Os clients que ao fazerem uma pesquisa busca por um site que necessite de usuario ou senha, o servidor busca no banco de dados esse usuario e senha, os navegadores possui um banco ddados muito pequeno, focado mais na experiência do usuário relacionado ao banco de dados normal. 
+                Você pode ter acesso a aplicativo de versoes diferentes de sistema, as aplicações web onde você acessa pelo browsers e a outra é pela instalação do aplicativo no seu dispositivo qunão são aplicações web.
+            </p>
+            <hr>
+            <h1 id="dispositivomovel">Dispositivos móveis:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Hoje temos os celulares, tablets e computadores portataies que fazem parte do nosso dia a dia, e são muitas vezes nossa ferramenta de trabalho, e continuam evoluindo sendo nperformace quantono seu disng. Percebemos que atualemnet on uso de smartphone está crescendo, os aplicativos estão presentes e são fundamentais para o funcionamento de umdeterminada empresa. 
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_servers">Servers:</h1></h1><small><a href="#indice">Voltar ao indice</a></small>
+            <br>
+            <h1 id="servers">Oque são servers:</h1><small><a href="#indice">Voltar ao   indice</a></small>
+            <p>
+                Utilizam a internet para fazer conexões entre si, ele também pode ser um servidor de rede local, significa que aquela máquina possui um computador central onde fica determinado arquivo especifíco. Ele pode ser um computador simples de pequeno porte quanto um de grande porte chamados de dataCenters.</p>
+            </p>
+            <hr>
+            <h1 id="hardwares_softwares">Hardwares e softwares em servidores:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                O servidor é baseado em duas partes a lógica(software) e a física(hardwares).
+                Os softwares cuidam dos sistemas operacionais, fazem monitoramento utilizando aplicativos, servidores web que  são programas. O hardwares é a parte física do computador, que temarmazenamento que seria os discos rigidos, SSDs, memória e processadores.</p>
+            <p>
+                O client faz uma busca iniciando uma rquisição HTTP pro servidor, o sistema operacional do servidor executa e da retorno da resposta. 
+            </p>
+            <p>
+                Os Sistemas operacional: Existe muitos sistemas operacionais mais os mais cohecidos são o Windows server(voltado para atendimento de servidores), Ubunto entre outros baseados Linux.
+                Os Servidores web é um computador que armazena arquivos que compõem os sites (por exemplo, documentos HTML, imagens, folhas de estilo, e arquivos JavaScript) e os entrega paradispositivo do usuário final.
+            </p>
+            <img src ="imagens/requisiçãoHTTP.jpeg" alt = "Editor de texto contendo código" class = "post_img_requisicao_http">
+            <hr>
+             <h1 id="tipos_servidores">Tipos de servers:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <ul>
+               <li>Servido central de aquivos, armazena aúdio, imagens, entre outros elementos.</li>  
+               <li>Segurança(Firewall):</li>
+               <li>Streaming:  Focado para fazer o streaming de dados, priuncipalmente de videos, ele libera os dados a medida que o usuário utiliza a informação.</li> 
+               <li>E-mail: Servidor que armazena e gerencia o envios dos e-mail.</li>
+               <li>Web: Servidor para a internet, HTML, JS, CSS....</li>
+            </ul>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_servers">Servers:</h1></h1><small><a href="#indice">Voltar ao indice</a></small>
+            <br>
+            <hr>
+            <h1 id="tipos_servidores">Tipos de servers:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <ul>
+                <li>Servido central de aquivos, armazena aúdio, imagens, entre outros elementos.</li>  
+                <li>Segurança(Firewall):</li>
+                <li>Streaming:  Focado para fazer o streaming de dados, priuncipalmente de videos, ele libera os dados a medida que o usuário utiliza a informação.</li> 
+                <li>E-mail: Servidor que armazena e gerencia o envios dos e-mail.</li>
+                <li>Web: Servidor para a internet, HTML, JS, CSS....</li>
+            </ul>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="hospedagem_site">Hospedagem de Site:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                É quando você guarda os arquivos do seu site no servidor para os clientes poderem acessar, funciona como um aluguel de um espaço digital para armazenar seus arquivos, pois para ter um site é necessário mantê-lo 24 horas online. Eles podem ser de multipla plataforma, o certificado SSL significa conexão segura, que significa que é griptografada. 
+            </p>
+            <p>
+                Registro.br serve para você cadastrar o dominio do seu site, o nome do seu site também deve estar disponível e depois configura o servidor para DNS correspondente.
+                Depois disso subir o site para o servidor através da conexão FTP(é uma conexão para enviar e receber arquivos), o arquivo do seu site vai ser transferido via Filezilla para o computador.
+                Um servidor pode ser funcionar para diversos tipos de servidor ao mesmo tempo.
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_linguagem_programacao">Linguagem de programação</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <br>
+            <h1 id="linguagem_programacao">O que é Linguagem de Programação:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <hr>
+            <p>
+                É um conjunto de informações que inserimos em uma determinada linguagem a sua forma de escrita dizemos assim que é interpretada por um interpretador, que chmamos de compilador dacordo com a sua lógica.Cada linguiagem de programação tem sua caracteristicas, é importante aprender pelo menos uma linguagem de programação, se possívela a mais usada nacomunidade, pois pode facilitar a ajuda de buscas ou informações.
+                Linguagem Server-side, são linguagens que executam  no servidor, por exemplo o PHP, JS, Java entre outros, 
+                Linguagem Client-side: Linguagem de programação que executada no lado do cliente se tratando de aplicações web, uma das linguagens seria o JS.
+                O JS pode ser executado dois dois lados pois ele está executado através do V8(mecanismo de execução e interpretação de JS) por baixo do navegador para ser interpretado. O node.js um programa que vai rodar o V8<sub>*</a></sub> por baixo(é um mecanismo).
+            </p>
+            <h6>Descrição:</h6>
+            <sub>*</a></sub><a href="http://v8.dev/">v8.dev</a>
+            <p>
+                HTML não é linguagem de programação, ele é um arquivo de marcação que possui no seu texto delimitadores por nomes que o navegador consegue interpretar, cada um desses delimitadorepossui uma função para determinado comportamento.
+                CSV é um arquivo de marcação, onde que você consegue enviar arquivos de texrto que o sistema consegue entender ler.
+                Os delimitadores do HJTML são conhecidos como Tags, por exemplo:
+            </p>
+            <img src ="imagens/img-programação.jpg" alt = "Editor de texto contendo código" class = "post_img_linguagens_programacao">
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_introducao_html_pratica">Introdução ao HTML na prática:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <h2 id="ferramentas">Ferramentas:</h2><small><a href="#indice">Voltar ao indice</a></small>
+            <hr>
+            <ul>
+                <li>
+                    Visual Studio Code: Ferramenta open sorte de editor de código-fonte, ele permnite que instalmaos extensões que para melhorar a qualidade. Pode ser executado no Windows, macOS Linux. 
+                    Live Server: É uma extensão do VS que permite que você possa acessar sua página no navegador, com atualização em tempo real.
+                </li> 
+                <li>
+                    Emmet: É uma extensão que auxilia na produção do código, ele autocompleta o código conforme vamos digitando e utilizando a tecla TAB.
+                </li>
+                <li>
+                    Chrome: É um navegador de internet.
+                </li>
+                <li> 
+                    Inspetor de elementos: Ferramenta de desenvolvedor, utilizada através do navegador, podemos ver essa ferramenta através da tecla F12, podemos utilizar para ver e analisar comas páginas foram feitas.
+                </li>
+            </ul>
+            <hr>
+            <img src ="imagens/tagshtml2.jpg" alt = "Editor de texto contendo código" class = "post_img_ex_tag">
+            <h2 id="tile_estrutura_basica">Estrutura básica do HTML:</h2> <small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                A tag HTML seria o elemento que forma a estrutura básica da nossa página HTML. As tags delimitam quando e onde terminam cada elemento da página, possui funções diferentes, podeter algumas diferenças dependendo do seu browsers.
+                Podemos ter tags com a HTML que inicia e termina nosso arquivo, mas também podemos ter tags de estilo, como a tag i, strong, como também podemos combinar as tags, além de modificaa fonte e o estilo da letra do nosso arquivo.
+                Existe tags de entrada de dados como a input que cria controles interativose também a  de imagem que nos possibilita colocar imagens  anossa página.
+            </p>
+            <hr>
+            <h2 id="tile_atributos">Atributos:</h2> <small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Para as tags conseguirem cumprir sua função ela precisa de atributos que são configurações do seu comportamento, existe atriubutos globais que compoem a maiorria das tags e oatributos expecidficos.
+                A tag id é um identificador do elementos onde se encontra, serve para quando modificarmos o elemento, temos o style que tem como função modoficar o estilo no elemento em si, mas mais usado no CSS(São comandos que tem funções que modificam a aparencia da nossa página no navegador). 
+                Podemos utilizar o class que nos ajuda a modificar mais de um elemento junto. 
+                Atributos mais especificos seria atributos de uma tag apenas, como a atributo type da tag input que especifica o tipo do elemento que vamos receber na tag input, a tag de imtambém precisa de um atributo especifico o src, onde adicionamos o endereço da nossa imagem, podemos modificar seu tamanho também com outras tags.
+            </p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="title_text">Textos:</h1><small><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Para termos textos no nosso arquivo HTML, utilizamos algumas tags, como a do h1 ao h6 que são titulos, mas com tamanho diferentes do h1 como maior ao h6 como menor, temos a tag de paragráfo que é a tag p.
+                Para citações usamos a tag bloquote, que gera uma margem antes do texto. 
+            </p>
+            <hr>
+            <h1 id="title_list">Listas ordenadas e não ordenadas:</h1><small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Existem dois tipos de listas a ordenada(o navegador entende que você quer fazer uma lista númerica em ordem) e a não ordenada(o navegador entende que você quer fazer uma lista e adiciona os marcadores ao invés de números), onde você pode fazer uma lista que possui outra lista dentro dela mesma, para elas funcionarem você precisa adicionar as suas tags filhas que seria a li.
+            </p>
+            <hr>
+            <h1 id="tags_links">Tags/Links:</h1>
+            <small><a href="#indice">Voltar ao indice</a></small>
+            <p>
+                Um link é uma linha ou um canal através do qual os dados são transmitidos.
+                Ancoragem é quando o link onde eu cliquei me direciona a um elemento na página local(a página atual, é uma forma de se movimentar entre os elementos do texto).
+            </p>
+            <p>
+                "Em computação, um hiperlink (ou link) é uma referência a um documento que o leitor pode seguir diretamente, ou que é seguido automaticamente. Os pontos de referência para um documento inteiro ou para um elemento específico dentro de um documento."<sup>*</sup>
+            </p>
+            <h6>Descrição:</h6>
+            <p><sup>*</sup><a href="https://sites.google.com/site/sitesrecord/o-que-e-um-link">O que é um Link</a></p>
+        </div>
+        <div  class="post_conteudos">
+            <h1 id="referencias">Referências:</h1><small><small><a href="#indice">Voltar ao indice</a></small>
+            <hr>
+            <ul>
+                <li>
+                    <a href = "https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EWgg3UxUJt1GhLwXu6Z0L1cB7EhiHOoMQ-8vECmYXzDwYA?e=KTRDY4">Primeiros passos com HTML</a>
+                </li>
+                <li>
+                    <a href ="_blankhttps://www.todamateria.com.br/historia-e-evolucao-dos-computadores/#:~:text=Os%20computadores%20de%20primeira%20gera%C3%A7%C3%Aquilowatts%20e%20possu%C3%ADa%2019.000%20v%C3%A1lvulas.">TodaMatéria</a>
+                </li>
+                <li>
+                    <a href = "https://sites.google.com/site/computadormark1/">Computador Mark1</a>
+                </li>
+                <li>
+                    <a href = " https://w3schools.com/">W3Schools</a>
+                </li>
+                <li>
+                    Material didático do Senac/ conteúdo para alunos do senac
+                </li>
+                <li>
+                    <a href="https://www1.folha.uol.com.br/folha/cotidiano/ult95u34809.shtml">Internet foi criada em 1969 com o nome de "Arpanet" nos EUA</a>
+                </li>
+                <li>
+                    <a href="https://www.digitalhouse.com/br/blog/design-responsivo/">Design responsivo: o que é e qual é sua importância no desenvolvimento de sites?</a>
+                </li>
+                <li>
+                    <a href="https://www.locaweb.com.br/conteudos/o-que-e-hospedagem-de-site/#:~:text=Se%20voc%C3%AA%20est%C3%A1%20pensando%20em,mant%C3%AA%2Dlo%2024%20horas%20online.">O QUEHOSPEDAGEM DE SITE?</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
