@@ -1,7 +1,12 @@
 body{
-    background-color: rgb(159, 209, 224);
+    background-color: rgb(224, 243, 250);
     font-family: verdana;
-    margin:10%;
+    max-width: 1090px;
+    margin-left: 450px;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 #Title, .SubTitle, .Post_title
 {
@@ -14,45 +19,43 @@ body{
 }
 .bloco_indice
 {
- background: rgb(224, 236, 236);
- padding: 15px;
- border: solid black 3px;
- margin-bottom: 15px ;
- border-radius: 5px;
+    margin: 15px 0px 5px 100px;
+    padding: 15px;
+    border:solid black 3px;
+    border-radius: 5px;
+    float: left;
+    width: 300px;
+    background: #FFFAFA;
+    background:rgb(215, 229, 241);
+    margin-left: -350px;
 }
-.img_capa_programacao
+.post_img_requisicao_http
 {
  margin-bottom: 15px;
  width: 100%;
  height: 300px;
 }
-#title_hardwares_softwares{
-    background: rgb(224, 236, 236);
-    padding: 15px;
-    border: solid black 3px;
-    margin-bottom: 15px ;
-    border-radius: 5px;
+.post_img_linguagens_programacao
+{
+    margin-left: 15px;
+    width: 90%;
+    height: 300px;
 }
-.img_requisicao_http
+.post_img_ex_tag
 {
  margin-bottom: 15px;
- width: 100%;
- height: 500px;
+ width: 900px;
+ height: 450px;
+ margin-left: 150px;
+ margin-top:15px;
 }
+
+
 .post_conteudos{
-    background:rgb(224, 236, 236);
+    background:rgb(255, 255, 255);
     padding: 15px;
     border:solid black 3px;
     margin-bottom: 15px ;
     border-radius: 5px;
     margin-top: 35px;
-}
-
-.historiaWeb
-{
- background: rgb(224, 236, 236);
- padding: 15px;
- border: solid black 3px;
- margin-bottom: 15px ;
- border-radius: 5px;
 }
